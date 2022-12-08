@@ -4,8 +4,9 @@
 int main(void)
 {
 	Memes ElPepe;
-	int* memeID[10];
-	std::string memeName = "El Pepe";
+	Memes EteSech;
+	EteSech.memeName = "Ete Sech";
+	ElPepe.memeName = "El Pepe";
 
-	ElPepe.CreateMeme(memeName, memeID);
+	ElPepe.CreateMeme();
 }

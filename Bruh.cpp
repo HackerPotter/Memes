@@ -1,20 +1,23 @@
 #include <iostream>
 #include "Bruh.hpp"
 
-using namespace std;
 
-void Memes::CreateMeme(string memeNames, int** memeIDs)
+
+using namespace std;
+//fill(memeIDs[0], memeIDs[100], 0);
+
+void Memes::CreateMeme()
 {
-	memeName = memeNames;
-	memeID = memeIDs;
-	for (int i = 0; i <= sizeof(**memeID) / sizeof(int*); i++)
-	{
-		do
+	string memeNames = memeName;
+	
+	int i;
+	for (i = 0; i < 10; i++) {
+		if (memeIDs[i] == 0)
 		{
-			if (**memeID == NULL) {
-				*memeID[i] = i;
-			}
-		} while (*memeID[i] <= sizeof(**memeID) / sizeof(int**));
+			memeIDs[i] = i + 1;
+			break;
+		}
 	}
-	cout << "Added new Meme " << memeName;
+	cout << "Added new Meme: " << """" << memeNames << """"<< " at ID " << memeIDs[i] << endl;
+	cin.get();
 }
