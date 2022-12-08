@@ -1,6 +1,5 @@
 #include <iostream>
 #include "Bruh.hpp"
-#include "Main.h"
 
 int main(void)
 {
