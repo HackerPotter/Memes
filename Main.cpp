@@ -3,10 +3,12 @@
 
 int main(void)
 {
-	Memes ElPepe;
-	Memes EteSech;
-	EteSech.memeName = "Ete Sech";
-	ElPepe.memeName = "El Pepe";
+	
+	Memes create;
 
-	ElPepe.CreateMeme();
+	create.CreateMeme();
+
+	std::cin.get();
+
+	return 0;
 }

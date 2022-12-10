@@ -8,7 +8,7 @@ int memeIDs[100];
 class Memes{
 
 public:
-	std::string memeName;
+	void CreateMeme(int n);
 	void CreateMeme();
 };
 
