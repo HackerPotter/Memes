@@ -1,14 +1,20 @@
 #include <iostream>
-#include "Bruh.hpp"
+#include "Memes.hpp"
 
 int main(void)
 {
+
+
+
+	Memes mMeme;
+	mMeme.Settings(VECTOR);
+	std::cout << "Meme ID " << mMeme.CreateMeme("Meme") << "\n";
+	std::cout << mMeme.FindMeme(1) << std::endl;
 	
-	Memes create;
 
-	create.CreateMeme();
+	mMeme.EndProg();
 
-	std::cin.get();
+	mMeme.Settings(VECTOR);
 
 	return 0;
 }

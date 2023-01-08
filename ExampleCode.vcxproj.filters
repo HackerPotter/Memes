@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bruh.cpp">
+    <ClCompile Include="Memes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bruh.hpp">
+    <ClInclude Include="Memes.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
