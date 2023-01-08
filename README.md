@@ -1,4 +1,5 @@
 # Memes
+#haha
 This is my first official C++ project, which uselessly helps you store Memes in a very basic "Data Base" that I created.
 I highly doubt anyone will come accross this, but if you're reading this, sorry for the bad code.
 
